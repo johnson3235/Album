@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+  }
+
+:root {
+    --main-color: #212529;
+    --sec-color: #ffc91c;
+    --text-color: white;
+    --text2-color: #11aad3;
+    --greeen: #16d0a4;
+}
+body{
+    background-color: #e5f6fe;
+}
+
+.navbar{
+    background-color: #212529;
+    color: #11aad3;
+}
+
+h1{
+    color: var(--text2-color);
+}
+select{
+    width: 50%;
+    transition: .3s all;
+    background-color: var(--main-color);
+    color: var(--text2-color);
+    font-weight: bold;
+}
+select:hover{
+width: 100%;
+}
+
+.s{
+    background-color: var(--main-color);
+    color: var(--text2-color);
+}
